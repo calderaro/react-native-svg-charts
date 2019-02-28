@@ -59,8 +59,6 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - RNSVG (6.2.1):
-    - React
   - yoga (0.52.2.React)
 
 DEPENDENCIES:
@@ -77,7 +75,6 @@ DEPENDENCIES:
   - React/RCTNetwork (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
-  - RNSVG (from `../node_modules/react-native-svg`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -89,8 +86,6 @@ EXTERNAL SOURCES:
     :podspec: ../node_modules/react-native/third-party-podspecs/GLog.podspec
   React:
     :path: ../node_modules/react-native
-  RNSVG:
-    :path: ../node_modules/react-native-svg
   yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga
 
@@ -100,7 +95,6 @@ SPEC CHECKSUMS:
   Folly: b7255b29f1d693c375d642d0f04f0592181156d9
   GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
   React: 43e97926f429d846050880666de1809e22dd5cc5
-  RNSVG: 6252323c0312735f0af5f58b5adf2965b6a9ffbf
   yoga: 55da126afc384965b96bff46652464373b330add
 
 PODFILE CHECKSUM: 9de4192bf91eac7af9c93de51fc16e91a5b20a7a
